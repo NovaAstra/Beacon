@@ -22,21 +22,21 @@
   },
   "projects": [
     {
-      "packageName": "@beacon/dashboard",
-      "projectFolder": "apps/dashboard",
+      "packageName": "@beacon-frontend/dashboard",
+      "projectFolder": "frontend/dashboard",
       "reviewCategory": "frontend",
       "shouldPublish": true
     },
     {
-      "packageName": "@beacon/graphql",
-      "projectFolder": "apps/graphql",
+      "packageName": "@beacon-backend/dashboard",
+      "projectFolder": "backend/dashboard",
       "reviewCategory": "backend",
       "shouldPublish": true
     },
     {
-      "packageName": "@beacon/schema",
-      "projectFolder": "apps/schema",
-      "reviewCategory": "common",
+      "packageName": "@beacon-backend/gateway",
+      "projectFolder": "backend/gateway",
+      "reviewCategory": "backend",
       "shouldPublish": true
     }
   ]
