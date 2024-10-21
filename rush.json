@@ -2,10 +2,9 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
   "rushVersion": "5.139.0",
   "pnpmVersion": "9.12.2",
-  "nodeSupportedVersionRange": ">=22.3.0",
+  "nodeSupportedVersionRange": ">=20.18.0",
   "projectFolderMinDepth": 2,
   "projectFolderMaxDepth": 3,
-  "ensureConsistentVersions": true,
   "approvedPackagesPolicy": {
     "reviewCategories": [
       "frontend",
@@ -15,18 +14,14 @@
     ],
     "ignoredNpmScopes": ["@types"]
   },
-  "gitPolicy": {
-    "allowedEmailRegExps": ["[^@]+@users\\.noreply\\.github\\.com"],
-    "sampleEmail": "mrexample@users.noreply.github.com"
-  },
   "repository": {
-    "url": "https://github.com/iTwin/itwinjs-core",
-    "defaultBranch": "master"
+    "url": "https://github.com/NovaAstra/Beacon",
+    "defaultBranch": "main"
   },
   "projects": [
     {
-      "packageName": "@beacon/graphl",
-      "projectFolder": "apps/graphl",
+      "packageName": "@beacon/graph",
+      "projectFolder": "apps/graph",
       "reviewCategory": "backend",
       "shouldPublish": true
     }

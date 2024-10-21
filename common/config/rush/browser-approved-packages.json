@@ -3,6 +3,18 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "@apollo/server",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@as-integrations/fastify",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/apollo",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "@nestjs/cli",
       "allowedCategories": [ "backend" ]
     },
@@ -15,7 +27,15 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "@nestjs/graphql",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "@nestjs/platform-express",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/platform-fastify",
       "allowedCategories": [ "backend" ]
     },
     {
@@ -44,6 +64,14 @@
     },
     {
       "name": "eslint-plugin-prettier",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "fastify",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "graphql",
       "allowedCategories": [ "backend" ]
     },
     {
