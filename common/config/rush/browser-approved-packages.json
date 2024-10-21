@@ -79,6 +79,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "nuxt",
+      "allowedCategories": [ "frontend" ]
+    },
+    {
       "name": "prettier",
       "allowedCategories": [ "backend" ]
     },
@@ -117,6 +121,14 @@
     {
       "name": "typescript",
       "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "vue",
+      "allowedCategories": [ "frontend" ]
+    },
+    {
+      "name": "vue-router",
+      "allowedCategories": [ "frontend" ]
     }
   ]
 }

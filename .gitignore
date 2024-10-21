@@ -6,6 +6,8 @@ package-lock.json
 lib
 dist
 
+.nuxt
+
 # rush-specific
 /common/temp
 package-deps.json

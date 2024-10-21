@@ -3,7 +3,9 @@
   "useWorkspaces": true,
   "strictPeerDependencies": false,
   "globalPeerDependencyRules": {
-    "ignoreMissing": [],
+    "ignoreMissing": [
+      "vite"
+    ],
     "allowedVersions": {
       "fastify": "5"
     }

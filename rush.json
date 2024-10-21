@@ -12,7 +12,9 @@
       "common",
       "extensions"
     ],
-    "ignoredNpmScopes": ["@types"]
+    "ignoredNpmScopes": [
+      "@types"
+    ]
   },
   "repository": {
     "url": "https://github.com/NovaAstra/Beacon",
@@ -20,9 +22,21 @@
   },
   "projects": [
     {
-      "packageName": "@beacon/graph",
-      "projectFolder": "apps/graph",
+      "packageName": "@beacon/dashboard",
+      "projectFolder": "apps/dashboard",
+      "reviewCategory": "frontend",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@beacon/graphql",
+      "projectFolder": "apps/graphql",
       "reviewCategory": "backend",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@beacon/schema",
+      "projectFolder": "apps/schema",
+      "reviewCategory": "common",
       "shouldPublish": true
     }
   ]
