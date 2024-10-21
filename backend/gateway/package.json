@@ -20,7 +20,8 @@
     "@as-integrations/fastify": "~2.1.1",
     "@nestjs/platform-fastify": "~10.4.5",
     "fastify": "~5.0.0",
-    "@apollo/gateway": "~2.9.3"
+    "@apollo/gateway": "~2.9.3",
+    "@apollo/subgraph": "~2.9.3"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

@@ -11,6 +11,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "@apollo/subgraph",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "@as-integrations/fastify",
       "allowedCategories": [ "backend" ]
     },

@@ -10,7 +10,7 @@ import { ApolloGatewayDriver, type ApolloGatewayDriverConfig } from '@nestjs/apo
       gateway: {
         supergraphSdl: new IntrospectAndCompose({
           subgraphs: [
-            { name: 'Dashboard', url: 'http://localhost:3001/graphql' },
+            { name: 'dashboard', url: 'http://localhost:3001/graphql' },
           ],
         }),
       }
