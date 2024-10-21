@@ -1,0 +1,94 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@nestjs/cli",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/common",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/core",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/platform-express",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/schematics",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@nestjs/testing",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "reflect-metadata",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "rxjs",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "source-map-support",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "supertest",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "ts-jest",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "ts-loader",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "ts-node",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "tsconfig-paths",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "backend" ]
+    }
+  ]
+}

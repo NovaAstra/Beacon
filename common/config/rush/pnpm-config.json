@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/pnpm-config.schema.json",
+  "useWorkspaces": true,
+  "strictPeerDependencies": false,
+  "globalPeerDependencyRules": {
+    "ignoreMissing": [
+      "@babel/core",
+      "@types/node",
+      "@typescript-eslint/parser"
+    ]
+  }
+}
