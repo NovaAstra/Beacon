@@ -3,10 +3,9 @@
   "useWorkspaces": true,
   "strictPeerDependencies": false,
   "globalPeerDependencyRules": {
-    "ignoreMissing": [
-      "@babel/core",
-      "@types/node",
-      "@typescript-eslint/parser"
-    ]
+    "ignoreMissing": [],
+    "allowedVersions": {
+      "fastify": "5"
+    }
   }
 }
