@@ -1,4 +1,5 @@
 import { Injectable } from "@nestjs/common"
+import { Logger } from 'nestjs-pino';
 
 import { NacosConfig } from "./modules/nacos"
 
@@ -7,5 +8,7 @@ export class AppService {
     @NacosConfig("node-pdf-bridgic")
     public testConfig: { len: number } = "undefined" as any;
 
-    public a() { }
+    constructor(private readonly logger: Logger){
+        this.logger.error("asd")
+    }
 }

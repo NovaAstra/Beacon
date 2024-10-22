@@ -115,6 +115,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "pino-socket",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "prettier",
       "allowedCategories": [ "backend" ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "@beacon/cortex",
+  "name": "@beacon/pulse",
   "version": "0.0.1",
   "scripts": {
     "build": "nest build",
@@ -18,8 +18,8 @@
     "nacos": "~2.6.0",
     "lodash": "~4.17.21",
     "nestjs-pino": "~4.1.0",
-    "pino-pretty": "~11.3.0",
-    "pino-http": "~10.3.0"
+    "pino-http": "~10.3.0",
+    "pino-socket": "~7.4.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
