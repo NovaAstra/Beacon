@@ -19,6 +19,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "@golevelup/nestjs-discovery",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "@nestjs/apollo",
       "allowedCategories": [ "backend" ]
     },

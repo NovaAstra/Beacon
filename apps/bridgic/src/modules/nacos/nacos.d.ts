@@ -7,4 +7,10 @@ declare module 'nacos' {
     interface NacosConfigClient {
         ready(): Promise<void>
     }
+    interface Instance {
+        instanceId?: string;
+        healthy?: boolean;
+        enabled?: boolean;
+        groupName?: string;
+    }
 }

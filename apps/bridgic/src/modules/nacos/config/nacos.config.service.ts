@@ -1,7 +1,9 @@
 import { Inject, Injectable, OnModuleInit, OnModuleDestroy } from "@nestjs/common"
+import { DiscoveryService } from '@golevelup/nestjs-discovery';
 import { NacosConfigClient, ClientOptions } from "nacos"
+import { ModulesContainer } from '@nestjs/core/injector/modules-container';
 
-import { NACOS_CONFIG_TOKEN } from "./nacos.config.constants"
+import { NACOS_CONFIG_TOKEN, NACOS_CONFIG_METADATA } from "./nacos.config.constants"
 
 @Injectable()
 export class NacosConfigService implements OnModuleInit, OnModuleDestroy {
@@ -15,15 +17,31 @@ export class NacosConfigService implements OnModuleInit, OnModuleDestroy {
 
 
     public constructor(
+        private readonly modulesContainer: ModulesContainer,
+        private readonly discover: DiscoveryService,
         @Inject(NACOS_CONFIG_TOKEN) private readonly options: ClientOptions
-    ) { }
-
-    async onModuleInit() {
-        this.configClient = new NacosConfigClient(this.options);
-        await this.configClient.ready();
+    ) {
+        console.log(this.modulesContainer.entries(), 12312)
     }
 
-    async onModuleDestroy() {
+    public async onModuleInit() {
+        this.configClient = new NacosConfigClient(this.options);
+        await this.configClient.ready();
+
+        const nacosMeta = await this.discover.providersWithMetaAtKey<{ dataId: string; group: string }>(NACOS_CONFIG_METADATA)
+    
+        for (const { meta } of nacosMeta) {
+            this.listeners.add({
+                dataId: meta.dataId,
+                group: meta.group,
+                listener: async (content: string) => {
+
+                }
+            });
+        }
+    }
+
+    public async onModuleDestroy() {
         for (const { dataId, group, listener } of this.listeners) {
             this.configClient.unSubscribe({ dataId, group }, listener);
         }

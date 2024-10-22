@@ -15,7 +15,8 @@
     "rxjs": "^7.8.1",
     "@nestjs/platform-fastify": "~10.4.5",
     "fastify": "~5.0.0",
-    "nacos": "~2.6.0"
+    "nacos": "~2.6.0",
+    "@golevelup/nestjs-discovery": "~4.0.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
