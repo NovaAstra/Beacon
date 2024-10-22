@@ -91,6 +91,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "lodash",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "nacos",
       "allowedCategories": [ "backend" ]
     },

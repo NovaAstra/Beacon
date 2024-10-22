@@ -1,7 +1,7 @@
 import { Global, Module, DynamicModule } from "@nestjs/common"
-import { DiscoveryModule } from '@golevelup/nestjs-discovery';
 import { ClientOptions } from "nacos"
 
+import { DiscoveryModule } from '../../discovery';
 import { NacosConfigService } from "./nacos.config.service"
 import { createNacosConfigProvider } from "./nacos.config.provider"
 
