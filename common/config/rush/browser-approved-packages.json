@@ -87,6 +87,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "nacos",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "nuxt",
       "allowedCategories": [ "frontend" ]
     },

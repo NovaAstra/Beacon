@@ -22,20 +22,8 @@
   },
   "projects": [
     {
-      "packageName": "@beacon-frontend/dashboard",
-      "projectFolder": "frontend/dashboard",
-      "reviewCategory": "frontend",
-      "shouldPublish": true
-    },
-    {
-      "packageName": "@beacon-backend/dashboard",
-      "projectFolder": "backend/dashboard",
-      "reviewCategory": "backend",
-      "shouldPublish": true
-    },
-    {
-      "packageName": "@beacon-backend/gateway",
-      "projectFolder": "backend/gateway",
+      "packageName": "@beacon/bridgic",
+      "projectFolder": "apps/bridgic",
       "reviewCategory": "backend",
       "shouldPublish": true
     }
