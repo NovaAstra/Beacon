@@ -59,6 +59,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "@playwright/test",
+      "allowedCategories": [ "frontend" ]
+    },
+    {
       "name": "@typescript-eslint/eslint-plugin",
       "allowedCategories": [ "backend" ]
     },
@@ -89,6 +93,10 @@
     {
       "name": "jest",
       "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "jsdom",
+      "allowedCategories": [ "frontend" ]
     },
     {
       "name": "lodash",
@@ -157,6 +165,14 @@
     {
       "name": "typescript",
       "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "vite",
+      "allowedCategories": [ "frontend" ]
+    },
+    {
+      "name": "vitest",
+      "allowedCategories": [ "frontend" ]
     },
     {
       "name": "vue",
