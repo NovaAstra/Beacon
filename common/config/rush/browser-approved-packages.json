@@ -99,8 +99,20 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "nestjs-pino",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "nuxt",
       "allowedCategories": [ "frontend" ]
+    },
+    {
+      "name": "pino-http",
+      "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "pino-pretty",
+      "allowedCategories": [ "backend" ]
     },
     {
       "name": "prettier",

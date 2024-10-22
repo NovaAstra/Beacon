@@ -1,5 +1,5 @@
 {
-  "name": "@beacon/bridgic",
+  "name": "@beacon/cortex",
   "version": "0.0.1",
   "scripts": {
     "build": "nest build",
@@ -16,7 +16,10 @@
     "@nestjs/platform-fastify": "~10.4.5",
     "fastify": "~5.0.0",
     "nacos": "~2.6.0",
-    "lodash": "~4.17.21"
+    "lodash": "~4.17.21",
+    "nestjs-pino": "~4.1.0",
+    "pino-pretty": "~11.3.0",
+    "pino-http": "~10.3.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

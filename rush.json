@@ -22,9 +22,27 @@
   },
   "projects": [
     {
-      "packageName": "@beacon/bridgic",
-      "projectFolder": "apps/bridgic",
+      "packageName": "@beacon/pulse",
+      "projectFolder": "apps/pulse",
       "reviewCategory": "backend",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@beacon/components",
+      "projectFolder": "packages/components",
+      "reviewCategory": "frontend",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@beacon/elements",
+      "projectFolder": "packages/elements",
+      "reviewCategory": "frontend",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@beacon/widgets",
+      "projectFolder": "packages/widgets",
+      "reviewCategory": "frontend",
       "shouldPublish": true
     }
   ]
