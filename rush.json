@@ -34,6 +34,12 @@
       "shouldPublish": true
     },
     {
+      "packageName": "@beacon/codeable",
+      "projectFolder": "packages/codeable",
+      "reviewCategory": "common",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@beacon/elements",
       "projectFolder": "packages/elements",
       "reviewCategory": "frontend",

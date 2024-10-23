@@ -16,7 +16,7 @@ async function bootstrap() {
 
   app.useLogger(app.get(Logger));
 
-  await app.listen({ port: 3001 });
+  await app.listen({ port: 3001, host: 'localhost' });
 }
 
 bootstrap();

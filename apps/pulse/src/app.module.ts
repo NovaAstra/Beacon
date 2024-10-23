@@ -2,7 +2,10 @@ import { Module } from '@nestjs/common';
 import { LoggerModule } from 'nestjs-pino';
 
 import { NacosNamingModule, NacosConfigModule, NacosInstanceModule } from "./modules/nacos"
-import { AppService } from "./app.service"
+import { WidgetModule } from "./modules/widget"
+
+import { AppController } from "./app.controller"
+
 
 @Module({
   imports: [
@@ -44,9 +47,8 @@ import { AppService } from "./app.service"
         redact: ['req.headers.authorization'],
       },
     }),
+    WidgetModule
   ],
-  providers: [
-    AppService,
-  ]
+  controllers: [AppController]
 })
 export class AppModule { }

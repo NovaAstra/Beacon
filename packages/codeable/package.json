@@ -1,0 +1,21 @@
+{
+    "name": "@beacon/codeable",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "sideEffects": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest  --ui",
+        "test:ben": "vitest bench",
+        "test:ci": "vitest run --coverage"
+    },
+    "devDependencies": {
+        "@vitest/coverage-v8": "~2.1.3",
+        "@vitest/ui": "^2.1.3",
+        "vite": "^5.4.9",
+        "vitest": "^2.1.3"
+    }
+}

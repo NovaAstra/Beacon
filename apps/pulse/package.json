@@ -19,7 +19,8 @@
     "lodash": "~4.17.21",
     "nestjs-pino": "~4.1.0",
     "pino-http": "~10.3.0",
-    "pino-socket": "~7.4.0"
+    "pino-socket": "~7.4.0",
+    "@beacon/codeable": "workspace:*"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

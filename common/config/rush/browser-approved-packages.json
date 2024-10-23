@@ -19,6 +19,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "@beacon/codeable",
+      "allowedCategories": [ "backend" ]
+    },
+    {
       "name": "@golevelup/nestjs-discovery",
       "allowedCategories": [ "backend" ]
     },
@@ -69,6 +73,14 @@
     {
       "name": "@typescript-eslint/parser",
       "allowedCategories": [ "backend" ]
+    },
+    {
+      "name": "@vitest/coverage-v8",
+      "allowedCategories": [ "common" ]
+    },
+    {
+      "name": "@vitest/ui",
+      "allowedCategories": [ "common" ]
     },
     {
       "name": "eslint",
@@ -168,11 +180,11 @@
     },
     {
       "name": "vite",
-      "allowedCategories": [ "frontend" ]
+      "allowedCategories": [ "common", "frontend" ]
     },
     {
       "name": "vitest",
-      "allowedCategories": [ "frontend" ]
+      "allowedCategories": [ "common", "frontend" ]
     },
     {
       "name": "vue",

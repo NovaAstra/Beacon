@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "types": [
+            "vitest/globals"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
