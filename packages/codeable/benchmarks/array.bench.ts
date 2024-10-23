@@ -27,7 +27,7 @@ function isNotNullValue(val) {
 }
 
 bench('cui sort (large array)', () => {
-    let a = []
+    let a: any[] = []
 
     let data = JSON.parse(JSON.stringify(demo.data))
 
@@ -45,10 +45,8 @@ bench('cui sort (large array)', () => {
 bench('a sort (large array)', () => {
     let data = JSON.parse(JSON.stringify(demo.data))
 
-    let a = sort(
+    sort(
         data,
-        (a,b)=>(a[demo.config.valueFieldsNameMeasureX] + '').localeCompare(b[demo.config.valueFieldsNameMeasureX] + ''),
+        (a: any, b: any) => (a[demo.config.valueFieldsNameMeasureX] + '').localeCompare(b[demo.config.valueFieldsNameMeasureX] + ''),
     )
-
-    console.log(a)
 })
